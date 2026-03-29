@@ -2,6 +2,10 @@
 
 > Reusable Feishu/Lark office automation templates built on top of `lark-cli`.
 
+[![Release](https://img.shields.io/github/v/release/XucroYuri/feishu-office-automation-templates)](https://github.com/XucroYuri/feishu-office-automation-templates/releases)
+[![License](https://img.shields.io/github/license/XucroYuri/feishu-office-automation-templates)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/XucroYuri/feishu-office-automation-templates)](https://github.com/XucroYuri/feishu-office-automation-templates/commits/main)
+
 [中文文档](README.zh-CN.md) · [Contributing](CONTRIBUTING.md) · [License](LICENSE) · [Release Notes](RELEASE-v0.1.0.md)
 
 ## Overview
@@ -92,12 +96,39 @@ lark-cli auth login --recommend
 - summarize findings before mutation
 - preview or restate write actions before execution
 
+## Example Entry Points
+
+### Feishu-only Workspace Routing
+
+```text
+Use commands/lark/workspace.md to inspect a user's tasks due this week and summarize by urgency.
+```
+
+### Chinese Office Routing
+
+```text
+使用 commands/office/task-zh.md 汇总我的飞书任务，并按截止时间输出待办优先级。
+```
+
 ## Typical Usage Scenarios
 
 - building a Feishu command pack for an internal assistant
 - standardizing message, calendar, and task flows across a team
 - reusing office automation prompts in agent frameworks
 - offering Chinese-friendly operational commands without losing structured behavior
+
+## Who This Is For
+
+- teams building internal Feishu assistants
+- developers packaging reusable prompt or command assets
+- operators who need Chinese command entry points with safer execution defaults
+- automation builders who want structured command templates instead of ad-hoc prompts
+
+## Who This Is Not For
+
+- projects that need direct SDK code rather than template assets
+- one-off scripts with no reuse requirements
+- environments that do not use `lark-cli` at all
 
 ## CLI Baseline
 
@@ -127,6 +158,10 @@ Contributions are welcome if they preserve:
 - alignment between English and Chinese documentation
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover a security issue or a template misuse risk, see [SECURITY.md](SECURITY.md).
 
 ## License
 

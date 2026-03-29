@@ -2,6 +2,10 @@
 
 > 基于 `lark-cli` 的可复用飞书 / Lark 办公自动化命令模板集合。
 
+[![Release](https://img.shields.io/github/v/release/XucroYuri/feishu-office-automation-templates)](https://github.com/XucroYuri/feishu-office-automation-templates/releases)
+[![License](https://img.shields.io/github/license/XucroYuri/feishu-office-automation-templates)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/XucroYuri/feishu-office-automation-templates)](https://github.com/XucroYuri/feishu-office-automation-templates/commits/main)
+
 [English](README.md) · [贡献指南](CONTRIBUTING.md) · [许可证](LICENSE) · [版本说明](RELEASE-v0.1.0.md)
 
 ## 项目简介
@@ -92,12 +96,39 @@ lark-cli auth login --recommend
 - 先总结结论，再决定是否变更
 - 写操作尽量保留预览或确认步骤
 
+## 示例入口
+
+### 飞书单平台路由
+
+```text
+Use commands/lark/workspace.md to inspect a user's tasks due this week and summarize by urgency.
+```
+
+### 中文办公路由
+
+```text
+使用 commands/office/task-zh.md 汇总我的飞书任务，并按截止时间输出待办优先级。
+```
+
 ## 适用场景
 
 - 为内部办公助手构建飞书能力包
 - 统一团队的消息、日程、任务执行口径
 - 在 Agent 框架中复用办公自动化提示模板
 - 面向中文团队提供可直接执行的命令入口
+
+## 适合谁
+
+- 正在构建飞书办公助手的团队
+- 需要沉淀可复用命令模板的开发者
+- 需要中文命令入口且强调执行安全边界的运营团队
+- 希望把办公自动化能力做成模板资产的 Agent/自动化开发者
+
+## 不适合谁
+
+- 只需要直接写 SDK 代码、不需要模板资产的项目
+- 一次性脚本场景
+- 完全不依赖 `lark-cli` 的运行环境
 
 ## CLI 基础能力
 
@@ -127,6 +158,10 @@ lark-cli auth login --recommend
 - 中英文文档同步维护
 
 详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 安全说明
+
+如果你发现安全问题或模板误用风险，请查看 [SECURITY.md](SECURITY.md)。
 
 ## 许可证
 
