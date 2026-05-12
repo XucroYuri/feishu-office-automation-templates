@@ -166,3 +166,8 @@ Use commands/lark/workspace.md to inspect a user's tasks due this week and summa
 ## 许可证
 
 本仓库使用 MIT License，见 [LICENSE](LICENSE)。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XucroYuri/feishu-office-automation-templates&type=Date)](https://star-history.com/#XucroYuri/feishu-office-automation-templates&Date)
+
