@@ -166,3 +166,8 @@ If you discover a security issue or a template misuse risk, see [SECURITY.md](SE
 ## License
 
 Released under the MIT License. See [LICENSE](LICENSE).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XucroYuri/feishu-office-automation-templates&type=Date)](https://star-history.com/#XucroYuri/feishu-office-automation-templates&Date)
+
